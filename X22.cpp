@@ -39,6 +39,7 @@ int main() {
     float D = Discriminant(a,b,c);
     float discriminantRoot = Root(D);
     cout << "Discriminant = b^2 - 4ac = " << (b*b) << " - 4 *" << a << " * " << c << "= " << D << endl;
+    cout << "Root of discriminant = " << discriminantRoot << endl;
     if (D >= 0) {
         x1 = (-b + discriminantRoot) / (2 * a);
         x2 = (-b - discriminantRoot) / (2 * a);
